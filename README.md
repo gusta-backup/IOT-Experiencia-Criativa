@@ -13,6 +13,7 @@
 # Lógica do Sistema
 
 **ESP1:**
+**[Link](https://wokwi.com/projects/407202611788119041 "ESP1")**
 * Monitora os sensores de temperatura e umidade
 * O código para ações subsequentes só era executado se houver uma mudança da medida anterior.
 * Se a temperatura atingir 60°C:
@@ -22,6 +23,7 @@
 * Se o Slide Switch da ESP1 estiver ativado, desativa o envio de mensagens e retorna os servos à posição inicial (0°).
 
 **ESP2:**
+**[Link](https://wokwi.com/projects/407204462314127361 "ESP2")**
 * Ao receber a mensagem da ESP1 indicando baixa umidade, aciona o buzzer e faz o LED piscar a cada segundo.
 * Se o Slide Switch da ESP2 estiver ativado, os alarmes são desativados, independentemente das mensagens recebidas da ESP1.
 
